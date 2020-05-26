@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E3DB441780CF3569E9F09BF7BC205748B83B3AE2A8C5025AD8073388E8CB5352D8FF25E83CCE5C2BAC5B314713D2F1C6B519E198C1744970B18D783010845907" Timestamp="1D6339993339961" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition AutoIncrementOnBuild="True" DefaultConfigurationName="Configuration1" Description="This is a template web application" Id="1" Product="Template" RootNamespaceId="14" UserVersion="0.1.0.14" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="2" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="3" Left="[float]0" MinHeight="[float]0" MinWidth="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="4" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="10" Name="Configuration1">
+			<CompilerSymbolTable Id="11" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="12" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+			<ComponentItemProperties AssociatedEnvoyId="15" Id="16" TopLevel="True" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="e6cfe61acae147789683290ee9311fdd" Id="e81025a4d4614ca1840735c0f50f7f9f" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="7" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="8" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="14" Name="WebApp">
+				<SourceFileReference Id="15" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="ea50477e502a496e856fec04fe645c97" Name="Support">
+					<SourceFileReference Bindings="EnvoyManager" Id="a59369551fe445d38aece2d826258e56" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="index data.gtype" StoragePath="Support\index data.gtype\index data.gtype" />
+					<FileReference Bindings=".css" Id="e6cfe61acae147789683290ee9311fdd" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="style.css" StoragePath="Support\style.css" />
+					<SourceFileReference Id="21248f1325e4149a5563272855dfa09" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Initialize.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="Support\Initialize.gviweb" />
+					<SourceFileReference Id="d54de469b73484990846741eb115145" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Website Version.gvi" StoragePath="Support\Website Version.gvi" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9" Name="WebApp.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="10" Id="13" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

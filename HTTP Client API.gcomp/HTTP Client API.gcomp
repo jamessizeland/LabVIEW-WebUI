@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D348118E241B8069A73CAC2EECB83634E975841B506C9C8310EC4A8700274299C297664F08410A9370975269DD63A40D43C620D1189D0DE11F2B515F04E61585" Timestamp="1D633933999EFD9" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="506abdedd41240809321a57a77cdeeab" RootNamespaceId="623f8696a86548d3ab5396f069178bba" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="f604757a404016bc040713c9a3742c" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="b77ceaafaa7c4dc69afb722cceb2f951" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="6d27c8afda0c459cb5ec00881130322a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="8c51253b870d4981b24c6e272d7b0f2b" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="fc7be3eb02b48f487cbdc92b878a82b" Name="Configuration1">
+			<CompilerSymbolTable Id="6fcd332d42354f42a35b706f39d0d8a2" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="be782b2f27604b92beb392b9a98b8639" />
+			<ComponentItemProperties AssociatedEnvoyId="f133d558c2f048fd8e71cfb7e3fc98b0" Exported="True" Id="165f269d022d4f54ae45d4416d3bdb20" />
+			<ComponentItemProperties AssociatedEnvoyId="fc937a485a074b5fa522ed2e24628e1a" Exported="True" Id="aa1ab4fc275f479ab7c1f6d07645dd80" />
+			<ComponentItemProperties AssociatedEnvoyId="4f4c05ce796942559d70723ab074f180" Exported="True" Id="e1102c01db65417cbdc838cac1e7fbad" />
+			<ComponentItemProperties AssociatedEnvoyId="d3034526c4b24d4ca8f11614fc06d355" Exported="True" Id="3389f48fa90c4b3384d8115e4aaf4fed" />
+			<ComponentItemProperties AssociatedEnvoyId="92b2d6caabce47d592b1064f8438c1f6" Exported="True" Id="f11d2445779d496c97278cf8ac50c6d3" />
+			<ComponentItemProperties AssociatedEnvoyId="d4e7ba35594344af81b3a99789eba6b6" Exported="True" Id="40823b004c24bcebae0a79310bf919f" />
+			<ComponentItemProperties AssociatedEnvoyId="a14831178d754882b2eb16e059f993b5" Exported="True" Id="65ed22a380ce4ebd859845a37cf9915e" />
+			<ComponentItemProperties AssociatedEnvoyId="3b2a2e54161d46fd8db4b0e5175bf609" Exported="True" Id="e18f7ee27f924b8698e0719008e8cd63" />
+			<ComponentItemProperties AssociatedEnvoyId="1aad70a218b4d258fae7c4671ec2287" Exported="True" Id="a14777b13072452cbd15ae84d6219c32" />
+			<ComponentItemProperties AssociatedEnvoyId="cee267074d3f4a4a81653713b68700a8" Exported="True" Id="2002f2f199654ae3875e075231f93450" />
+			<ComponentItemProperties AssociatedEnvoyId="89ad8c21a2554f27ad72d29860e23f63" Exported="True" Id="785871f914ef45df95de4035e6eab6d0" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="10aadbfe372b4d4394cd384afdc526a6" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="76eea5b72ca046c8a7ce780b70757f8d" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="768016fbf1d74a52a703a0a646351b6a" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="623f8696a86548d3ab5396f069178bba" Name="HTTP Client API2">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="58b41514adb44fa3a70eac9e5b6d0690" Name="Connection">
+					<SourceFileReference Id="92b2d6caabce47d592b1064f8438c1f6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="DELETE.gvi" StoragePath="Connection\DELETE.gvi" />
+					<SourceFileReference Id="d4e7ba35594344af81b3a99789eba6b6" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="PUT.gvi" StoragePath="Connection\PUT.gvi" />
+					<SourceFileReference Id="a14831178d754882b2eb16e059f993b5" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="POST.gvi" StoragePath="Connection\POST.gvi" />
+					<SourceFileReference Id="3b2a2e54161d46fd8db4b0e5175bf609" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GET.gvi" StoragePath="Connection\GET.gvi" />
+					<SourceFileReference Id="1aad70a218b4d258fae7c4671ec2287" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Open Connection.gvi" StoragePath="Connection\Open Connection.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="cee267074d3f4a4a81653713b68700a8" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Connection--cluster.gtype" StoragePath="Connection\Connection--cluster.gtype\Connection--cluster.gtype" />
+					<SourceFileReference Id="89ad8c21a2554f27ad72d29860e23f63" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close Connection.gvi" StoragePath="Connection\Close Connection.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="925bfcbeff3e41c0a44136836bf41f92" Name="Error Constants">
+					<SourceFileReference Id="fc937a485a074b5fa522ed2e24628e1a" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Server Unreachable Error--error.gvi" StoragePath="Error Constants\Server Unreachable Error--error.gvi" />
+					<SourceFileReference Id="4f4c05ce796942559d70723ab074f180" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Generic HTTP Error--error.gvi" StoragePath="Error Constants\Generic HTTP Error--error.gvi" />
+					<SourceFileReference Id="d3034526c4b24d4ca8f11614fc06d355" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Timeout Error--error.gvi" StoragePath="Error Constants\Timeout Error--error.gvi" />
+				</NameScopingEnvoy>
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="29926c8bd07949b593b234c8928821ae" Name="Error Handling">
+					<SourceFileReference Id="f133d558c2f048fd8e71cfb7e3fc98b0" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Handle HTTP Request Error.gvi" StoragePath="Error Handling\Handle HTTP Request Error.gvi" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="d4d73d93bd5e493f9fe1ebce556250fd" Name="HTTP Client API.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="fc7be3eb02b48f487cbdc92b878a82b" Id="1134215c95e493d8ef5cb6867ac839f" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

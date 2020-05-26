@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E9C29EA8EEEDDA76DF4289CFFD482D397FF381FDA85760825B6D890AC29BB483F6355B520226E00282DE9C5C0994E7EBE8BF7230D979DC8D6DB66FFD91B9567A" Timestamp="1D6321D3D3F007E" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<TypeDefinition DataType="@aa19848a7459455fa384b1bf3fcfbf39" Id="c9a7e31d5d1d426d85936cc311dd8b70" xmlns="http://www.ni.com/MocCommon">
+		<Icon Id="9a4db5a77ca64556ab94b070be47d6bb" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="99bb7ded0cfe4190a3067464c49598c4" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="177db80a426e4bb6bd02f97dfdc27752" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<DataItem DataType="@aa19848a7459455fa384b1bf3fcfbf39" Id="e5385694efa34e32956d482f8f3130d0" Name="User Events">
+			<p.DefaultValue>0_</p.DefaultValue>
+		</DataItem>
+	</TypeDefinition>
+	<EnvoyManagerFile Id="fe689336c139412392b387e381a6a53e" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="5f72f07f15c149478ec1de55f448319c" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<NameScopingEnvoy AutomaticallyResolveUp="True" Id="2ea1bf67e054c9791cf9de8412b01b0" Name="Cluster Constant.gtype" NameTracksFileName="True">
+			<EmbeddedDefinitionReference Bindings="{http://www.ni.com/PlatformFramework}NeverLazy" Id="bbe4a2888d6b410dacf83e1d15da997f" ModelDefinitionType="{http://www.ni.com/MocCommon}ControlDefinition" Name="ControlDefinition">
+				<ControlDefinition DefaultDirection="Control" Id="fa11b3234e434984a55a2330cd2befbf" xmlns="http://www.ni.com/MocCommon">
+					<Cluster BaseName="[string]Cluster" BorderThickness="[SMThickness]1,1,1,1" ClusterType="[Type]@aa19848a7459455fa384b1bf3fcfbf39" Height="[float]60" Id="ce78e28462434820a652f43bb1057106" Label="[UIModel]f35059be78b64fcf97bcc2a89d285160" Left="[float]100" TabIndex="[int]0" Top="[float]100" Value="{DataItemBinding Id=e5385694efa34e32956d482f8f3130d0}" Width="[float]68" xmlns="http://www.ni.com/PanelCommon">
+						<OpaqueRefnum BaseName="[string]OpaqueRefnum" Height="[float]24" Id="d43481e7c71b438d94962265d3f5535b" Label="[UIModel]2e3b6a879d08482f8243778c754d7862" Left="[float]4" RefnumType="[Type]@8a82a860e2bc4aff8adf94310e04d6d9" Top="[float]24" Value="{ClusterBinding FieldName=stop\ event}" Width="[float]24" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+						<Label Height="[float]16" Id="2e3b6a879d08482f8243778c754d7862" LabelOwner="[UIModel]d43481e7c71b438d94962265d3f5535b" Left="[float]4" Text="[string]stop event" Top="[float]4" Width="[float]56" />
+					</Cluster>
+					<Label Height="[float]16" Id="f35059be78b64fcf97bcc2a89d285160" LabelOwner="[UIModel]ce78e28462434820a652f43bb1057106" Left="[float]100" Text="[string]User Events" Top="[float]80" Width="[float]62" xmlns="http://www.ni.com/PanelCommon" />
+				</ControlDefinition>
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+	<DataTypeReferenceTable xmlns="http://www.ni.com/PlatformFramework">
+		<p.TypeReference TypeId="aa19848a7459455fa384b1bf3fcfbf39">
+			<Composite Id="1" Name="" Cluster="" GenericTypeDefinition="Void" BaseType="Void">
+				<Members>
+					<Field FieldAccessPolicy="ReadWrite" Name="stop event" DataType="@8a82a860e2bc4aff8adf94310e04d6d9" />
+				</Members>
+			</Composite>
+		</p.TypeReference>
+		<p.TypeReference TypeId="8a82a860e2bc4aff8adf94310e04d6d9">
+			<Attributed AttributedType="@2bc2189028174ad6bb999cbb5c935b38">
+				<AttributeValues>
+					<AttributeValue Name="NI_PlatformFramework_RefnumAttributes" Value="[NI_PlatformFramework_RefnumAttributes]Refnum" />
+				</AttributeValues>
+			</Attributed>
+		</p.TypeReference>
+		<p.TypeReference TypeId="2bc2189028174ad6bb999cbb5c935b38">
+			<Event Id="1" Name="Unnamed event" GenericTypeDefinition="Void">
+				<Parameters>
+					<Parameter InputParameterPassingRule="Required" OutputParameterPassingRule="Optional" Name="event data" DataType="Boolean" />
+				</Parameters>
+			</Event>
+		</p.TypeReference>
+	</DataTypeReferenceTable>
+</SourceFile>

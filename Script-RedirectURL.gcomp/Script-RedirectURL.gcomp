@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="12F23E316B90FB5D5D6758ACB170B9AB68F20F27F5B1F654C671C8C5DD814C8DF320CBA24E95E48192B1A9CF827E7A435DE8956F8B9107C76C31F07D95004524" Timestamp="1D6321B0D57586C" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="a2a970aea9c54f358b21682989d5582a" RootNamespaceId="3e4995fdb72a4b39aed542e33eb6ea4a" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="22c71663d5bd4d7a966ac3eb8f04734c" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="8fa656175c1043a09a2430f5d8e4834a" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="acee42205cc14aab9df0ec64ffff772a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="5ac5944133d34c98b462ad16581ae241" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="2f95d385e99403b8e3ffcc50d93f2a3" Name="Configuration1">
+			<CompilerSymbolTable Id="d0f30ddb90174826bcd399f8cdcdd9d8" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="315df76feb1340279297729681c44070" />
+			<ComponentItemProperties AssociatedEnvoyId="650f7d9010934ceca167c8b469381455" Exported="True" Id="ed8722214c8749e691865b040407c0cb" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="1fd1ab6e66ff451a87b51d7639334c4a" Id="62114dbd11d04af4a325f774d05ef155" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="636057a2173e4a0b863d928809c80731" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ad6390d052bf477f90f61417b3d95601" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="bdc8de746e32466781304adb2e34516c" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3e4995fdb72a4b39aed542e33eb6ea4a" Name="RedirectURL">
+				<SourceFileReference Bindings="EnvoyManager" Id="650f7d9010934ceca167c8b469381455" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="Redirect.jsli" StoragePath="Redirect.jsli" />
+				<FileReference Bindings=".js" Id="1fd1ab6e66ff451a87b51d7639334c4a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="redirect.js" StoragePath="redirect.js" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="ad8709ae3f04434d924aa8d08aef9711" Name="JS_RedirectURL.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="2f95d385e99403b8e3ffcc50d93f2a3" Id="3fe44e8de864400d970b21ac011b0837" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

@@ -1,0 +1,535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>72be6e50-98f5-4778-8490-050f13a1de9e</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>72be6e50-98f5-4778-8490-050f13a1de9e</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2020-05-24T23:31:00.6355003Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6b244680-d9c0-4854-ad6c-47f388d8bcfa</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6b244680-d9c0-4854-ad6c-47f388d8bcfa</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-24T23:31:20.7522065Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6d406a02-f498-49c6-b556-94ffbbb9cd09</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6d406a02-f498-49c6-b556-94ffbbb9cd09</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-24T23:45:22.7267993Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>a0115274-79fe-4c06-892b-5ca2a6784a9f</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>a0115274-79fe-4c06-892b-5ca2a6784a9f</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-24T23:51:38.0476915Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9da7e1e2-0e8c-402d-8a82-d52a401b9b79</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>9da7e1e2-0e8c-402d-8a82-d52a401b9b79</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-24T23:52:29.3681275Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6238afac-ceb9-4d1f-bfad-cd11818f0572</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6238afac-ceb9-4d1f-bfad-cd11818f0572</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:28:59.3558556Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>71c0582e-50d5-46f6-b521-a2ee645c3c5c</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>71c0582e-50d5-46f6-b521-a2ee645c3c5c</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:35:49.5503226Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ccfe6f0-4601-4fea-aa59-d68f2d07f299</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8ccfe6f0-4601-4fea-aa59-d68f2d07f299</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:37:10.4259213Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c7c62f92-31a4-4549-8904-474df2f6ed9d</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>c7c62f92-31a4-4549-8904-474df2f6ed9d</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:37:52.1604410Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1ef73f3d-5f8f-4b01-85b6-f93ff95ebcda</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>1ef73f3d-5f8f-4b01-85b6-f93ff95ebcda</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:45:58.2196869Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>7707b08d-6650-4c93-9392-50c49575dcc3</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>7707b08d-6650-4c93-9392-50c49575dcc3</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T10:49:11.7797588Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>23164c51-5f7a-4ace-956e-4e50f6e8270b</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>23164c51-5f7a-4ace-956e-4e50f6e8270b</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:27:44.4787887Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>619b9318-1484-46f6-ac9c-ee196373ceac</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>619b9318-1484-46f6-ac9c-ee196373ceac</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:28:15.2916326Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>96b70ca8-70b3-4d99-8bdc-c9671416d85a</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>96b70ca8-70b3-4d99-8bdc-c9671416d85a</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-05-25T21:30:19.6020515Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>877017ba-f911-495e-8fb0-75536b6f1302</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>877017ba-f911-495e-8fb0-75536b6f1302</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:43:19.7175261Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8dd6fdd9-a673-4296-8b26-c3d59213de03</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>8dd6fdd9-a673-4296-8b26-c3d59213de03</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:49:41.7234887Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>fd43b8e2-88f6-433b-9249-9d473beb572c</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>fd43b8e2-88f6-433b-9249-9d473beb572c</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:52:43.5837019Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>dd80c5ca-86e5-46cb-8686-9b592f9b2ba4</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>dd80c5ca-86e5-46cb-8686-9b592f9b2ba4</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T21:58:37.8958168Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>b7ebbd7d-f078-4c94-9f2b-d94f7f9bfc95</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>b7ebbd7d-f078-4c94-9f2b-d94f7f9bfc95</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T22:01:39.5563042Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>049ee4b4-c19c-4dda-a534-137db4648f87</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>049ee4b4-c19c-4dda-a534-137db4648f87</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T22:05:53.3738514Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f3062f2e-a3f8-433e-b7e5-94b4a2eaedda</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>f3062f2e-a3f8-433e-b7e5-94b4a2eaedda</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T22:06:40.9461981Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6b267577-b94b-42c8-9806-9f3ba9c50c66</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>6b267577-b94b-42c8-9806-9f3ba9c50c66</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T22:07:03.0501500Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>d91bece8-4d4d-4d7e-b05f-e918efab9c32</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>d91bece8-4d4d-4d7e-b05f-e918efab9c32</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-25T22:07:40.5098555Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>10693b69-35fa-4d1d-b2fb-d656007157ea</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>10693b69-35fa-4d1d-b2fb-d656007157ea</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-05-26T19:27:00.8251583Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>5f5e86bd-1fd2-41aa-a519-505c87721edc</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>5f5e86bd-1fd2-41aa-a519-505c87721edc</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-26T19:27:45.3252651Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>5e6382a1-7885-42fb-bb5f-348e5a04c445</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>5e6382a1-7885-42fb-bb5f-348e5a04c445</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-26T19:29:59.5605298Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>0ebd8e5a-f7a3-447d-84fd-100e9b86c56b</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>0ebd8e5a-f7a3-447d-84fd-100e9b86c56b</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:02</LastTotalTime>
+    <StartTime>2020-05-26T19:30:42.8899121Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>547259ad-e934-462f-96f0-afd1af2ce418</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>547259ad-e934-462f-96f0-afd1af2ce418</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-05-26T19:53:39.1770454Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+</JobList>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F191E57910E147FB71FEA97385A8C2C30F581B88AEA0924199538836E033347C29916AE454D72606676967FB4F02FF917848361824A52B5F43C7C74671E9FE82" Timestamp="1D6321E54D7A9B8" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="30135b087ade44a2a86d61e118ab9fec" RootNamespaceId="257ba7aebb114406bd55b55e4a752d3b" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="f1d8174d0c044853bcb2bb444039686e" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="db2150a50f704e2ca829ab83db842415" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" HorizontalAlignment="[HorizontalAlignment]Stretch" Id="b866286b150441f38ac10a578e693826" Left="[float]0" TemplateName="[string]Custom3" Top="[float]0" VerticalAlignment="[VerticalAlignment]Stretch" Width="[float]40">
+					<Rectangle EditMode="[ShapeEditMode]EditablePath" Fill="[SMSolidColorBrush]#ff000000" Height="[float]13" HorizontalAlignment="[HorizontalAlignment]Left" Id="acb353c7beb94de486de7a478b0f2101" Left="[float]0" RadiusX="[float]0" RadiusY="[float]0" Stroke="[SMSolidColorBrush]#ff000000" StrokeThickness="[float]1" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" Width="[float]40" />
+					<Text Foreground="[SMColor]#ffffffff" Height="[float]14" HorizontalAlignment="[HorizontalAlignment]Left" Id="b2d5232b8c074afba94d7a87a99c1db4" Left="[float]9" Text="[string]QMH" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalAlignment="[VerticalAlignment]Top" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]23">
+						<FontSetting FontFamily="Segoe UI" FontSize="7" Id="7c2956bc8ac24beabf2b55c3b4268ab0" />
+					</Text>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="8577c82c73fe46f59eea60aae9898df1" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="18d7f39b41b74bdea97f5bd1057a772d" Name="Configuration1">
+			<CompilerSymbolTable Id="53808e11ac954f9eb2bf8df6353f0079" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="a5ff5b80b24f4495b51141fe5b964e3c" />
+			<ComponentItemProperties AssociatedEnvoyId="fcebb1b7f9e7473ba051a212ef69a78e" Exported="True" Id="2e33cc6ed8514b589952d600833b1567" />
+			<ComponentItemProperties AssociatedEnvoyId="8bae865e4827430480ce03d1b46b7861" Exported="True" Id="7f01d645afeb4ac486463aaf4b1c6018" />
+			<ComponentItemProperties AssociatedEnvoyId="88fb5c1a324e40fab0c5c3f78284031f" Exported="True" Id="5e2fe4319d2142bdb6d3530466bf5081" />
+			<ComponentItemProperties AssociatedEnvoyId="40f1ef6cb14b4f0dae244e7140fd823e" Exported="True" Id="37ee9842606f43469e6263453523f21d" />
+			<ComponentItemProperties AssociatedEnvoyId="a560205192e646c5b321f7e189ba010a" Exported="True" Id="f54d88fb7d9e406489f3ebee0f022498" />
+			<ComponentItemProperties AssociatedEnvoyId="a012ccf8bca141dcacd7ab3973dd2dd9" Exported="True" Id="8e5c74f8dd9c41ac932431317566fe1f" />
+			<ComponentItemProperties AssociatedEnvoyId="b0c6716ffdbb4202adc249892e1107de" Exported="True" Id="64e0d6225bb94f818a48acae625b9931" />
+			<ComponentItemProperties AssociatedEnvoyId="dfa41ce8c69049d49adae27298cf379e" Exported="True" Id="3095dd52d008424ea3b4e7c1d9661bd9" />
+			<ComponentItemProperties AssociatedEnvoyId="bcc8b865c4244d2d9c41f0c9a5f9c7ad" Exported="True" Id="28b5fca001a14a49bc39fde988472625" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="b6770f699a5e414b8526939083557f7f" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1cd6aed211684c2a857ef68611b62b1b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="79ccbd8b562d48b89058cf869f1db40d" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="257ba7aebb114406bd55b55e4a752d3b" Name="QMH">
+				<SourceFileReference Id="fcebb1b7f9e7473ba051a212ef69a78e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Pre-Loop Init.gvi" StoragePath="Pre-Loop Init.gvi" />
+				<SourceFileReference Id="8bae865e4827430480ce03d1b46b7861" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Enqueue.gvi" StoragePath="Enqueue.gvi" />
+				<SourceFileReference Id="88fb5c1a324e40fab0c5c3f78284031f" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Dequeue.gvi" StoragePath="Dequeue.gvi" />
+				<SourceFileReference Id="40f1ef6cb14b4f0dae244e7140fd823e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Close Loop.gvi" StoragePath="Close Loop.gvi" />
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="8c5e0bab725342e0b9ebfef0b53fae5d" Name="Support">
+					<SourceFileReference Bindings="EnvoyManager" Id="a560205192e646c5b321f7e189ba010a" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="FGV State.gtype" StoragePath="Support\FGV State.gtype\FGV State.gtype" />
+					<SourceFileReference Bindings="EnvoyManager" Id="a012ccf8bca141dcacd7ab3973dd2dd9" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Message Data.gtype" StoragePath="Support\Message Data.gtype\Message Data.gtype" />
+					<SourceFileReference Id="b0c6716ffdbb4202adc249892e1107de" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Event FGV.gvi" StoragePath="Support\Event FGV.gvi" />
+					<SourceFileReference Id="dfa41ce8c69049d49adae27298cf379e" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Queue FGV.gvi" StoragePath="Support\Queue FGV.gvi" />
+					<SourceFileReference Bindings="EnvoyManager" Id="bcc8b865c4244d2d9c41f0c9a5f9c7ad" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="User Events.gtype" StoragePath="Support\User Events.gtype\User Events.gtype" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="621040654b6f4d43a7b643dad8d56b44" Name="QMH.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="18d7f39b41b74bdea97f5bd1057a772d" Id="f01b1f549caa490eb5e0f777c11191c1" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

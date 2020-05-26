@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="79AE627139EE7515E82F4CDABB22DE21FCC851C4B0C6FA6D3D5D8C66BE4A3C02198D0B2FF3F7FC21EF26D3B81E374EAA9CCE1486BE8413E038293C8991D64DE9" Timestamp="1D633949FBF43AC" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="JavaScript Library" Name="http://www.ni.com/JavaScriptLibrary" OldestCompatibleVersion="6.4.0.49152" Version="6.4.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="ac9537b627984ceda4ddf98cce51a824" RootNamespaceId="485b15942e4b49ef9ae8d56aa41d8ff1" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3dddc9c4b65449dba49e2f8caaab0de9" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="e4c0bae183f4e4b9a494b180b5eaf65" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="66553857ad70448292a7039191ce53bc" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="ebd1cc9ba0b43539d7ba1765cc22c2d" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="fa5e0d74e75f45f892b09bb91982e32e" Name="Configuration1">
+			<CompilerSymbolTable Id="875405eb17674e7c9f3a22ddce6cf99b" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="e092e97f0d234d718712454edba025bb" />
+			<ComponentItemProperties AssociatedEnvoyId="88b13695b0d248b69765ab679457279a" Exported="True" Id="6097db3acef2401a9d1d0f6ae565e6fc" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="eb0c0a5f82e04854a61c616e503e849a" Id="406ca6feab81477682aa7ef0972bf663" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="249ae4b2795c496b8742e3c480832314" Id="93e890b0edd1460d9c63b89715e209a7" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="3a03bb1f7682433a8fde2c24a7a49698" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="ab998fede3ed48e89847371b6533a279" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="9204e4ed7b8a4c96bb27280928846f48" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="485b15942e4b49ef9ae8d56aa41d8ff1" Name="BusyIcon">
+				<NameScopingEnvoy AutomaticallyResolveUp="True" Id="3140cbaecf2541d79f6fbfa8987ea321" Name="Support">
+					<SourceFileReference Bindings="EnvoyManager" Id="88b13695b0d248b69765ab679457279a" ModelDefinitionType="{http://www.ni.com/JavaScriptLibrary}JavaScriptLibrary" Name="BusyState.jsli" StoragePath="Support\BusyState.jsli" />
+					<FileReference Bindings=".js" Id="eb0c0a5f82e04854a61c616e503e849a" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="BusyState.js" StoragePath="Support\BusyState.js" />
+					<FileReference Bindings=".css" Id="249ae4b2795c496b8742e3c480832314" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="BusyState.css" StoragePath="Support\BusyState.css" />
+				</NameScopingEnvoy>
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="2680c1e6818745459c212c2ad9ff9f5b" Name="Script-BusyState.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="fa5e0d74e75f45f892b09bb91982e32e" Id="b25db2df851844b4a0dc472ed83d12bf" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

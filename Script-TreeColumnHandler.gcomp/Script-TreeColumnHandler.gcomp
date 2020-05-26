@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D9BE4EBD070F4D596701B688229C2B2A2A6C5BD073724EED8CC7B68EC1ED3FFE2AED2829547DE5A058F67F87E0983A6B6F2003B8340581BBF3E5DD978A24CF76" Timestamp="1D633999332AFAB" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="a9bfbd49241142a4823cb67b629cb8cd" RootNamespaceId="b1e6469790ac48bfa648fb8f9a597f67" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="3d2857bba8346feb22bb46529ad9e35" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="6714f3dd1a7494887a5a8c823823997" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="5e3bbf54d5904c489f34257a6b7c5eeb" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="99072e16d70e486ea3f1f40c87153eba" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration Id="76c9a963ca5f499da50f0f123d571d52" Name="Configuration1">
+			<CompilerSymbolTable Id="6ee0e77c98e94c7289a200441d9d18e5" xmlns="http://www.ni.com/PlatformFramework" />
+			<GLibraryProperties Id="4dd622a2ee6b4eb9afbb08e5fbfcb82b" />
+			<ComponentItemProperties AlwaysInclude="True" AssociatedEnvoyId="48f27521bf574c01a3bb74a4e7f6c4d7" Id="8cb6a614e5b1454ca4db6e407a09939c" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="75ca3e52c2ae4fe89f10d1fdcf210b70" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="2635b0cbbf6f425d85ffa6844ec87420" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="ef16473d77b346ada79ecc330ba0f69c" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="b1e6469790ac48bfa648fb8f9a597f67" Name="Tree Column Handler">
+				<FileReference Bindings=".js" Id="48f27521bf574c01a3bb74a4e7f6c4d7" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="treeColumnHandler.js" StoragePath="treeColumnHandler.js" />
+			</NameScopingEnvoy>
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="9c09254e2434640b14342297e9c4e6c" Name="Script-TreeColumnHandler.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="76c9a963ca5f499da50f0f123d571d52" Id="c4d98e78e93b4eea8e71460c9b54c354" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>
